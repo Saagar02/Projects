@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+    <dontWrapJar>true</dontWrapJar>
+    <headerType>gui</headerType>
+    <jar>/home/sagar/Projects/SelectionSort Visualization.jar</jar>
+    <outfile>SelectionSort Visualization.exe</outfile>
+    <errTitle>Error</errTitle>
+</launch4jConfig>
