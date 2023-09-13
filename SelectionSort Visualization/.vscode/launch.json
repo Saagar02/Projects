@@ -15,8 +15,9 @@
             "name": "SelectionSort",
             "request": "launch",
             "vmArgs": "--module-path /home/sagar/javafx-sdk-20.0.2/lib --add-modules javafx.controls,javafx.fxml",
+
             "mainClass": "SelectionSort",
-            "projectName": "SelectionSort Visualization_8ebe10df"
+            "projectName": "SelectionSort Visualization_e2cc376b"
         }
     ]
 }
