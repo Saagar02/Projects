@@ -97,25 +97,10 @@ public class SelectionSort extends Application {
 
         // Top Node
         Label title = new Label("Selection Sort Algorithm");
-        Label title2 = new Label("Core2Web");
-        Label title3 = new Label("By : Sagar Chaudhari");
-        title.setPadding(new Insets(0,0,0,280));
-        title3.setPadding(new Insets(50,0,0,150));
-        //title3.setAlignment(Pos.BOTTOM_CENTER);
-
         title.setStyle("-fx-font-family : \"DejaVu Serif\";-fx-font-weight : bold;-fx-text-fill :white ;-fx-font-size : 50px");
-        title2.setStyle("-fx-font-family : \"DejaVu Serif\";-fx-font-weight : bold;-fx-text-fill :yellow ;-fx-font-size : 50px");
-        title3.setStyle("-fx-font-family : \"DejaVu Serif\";-fx-font-weight : bold;-fx-text-fill :white ;-fx-font-size : 35px");
-
-        HBox label1 = new HBox(title2);
-        label1.setAlignment(Pos.CENTER_LEFT);
-        label1.setPadding(new Insets(0,50,0,20));
-        HBox label2 = new HBox(title);
-        label2.setAlignment(Pos.CENTER);
-
-        topNode = new HBox(label1,label2 , title3);
+        topNode = new HBox(title);
         topNode.setPrefHeight(100);
-        topNode.setAlignment(Pos.CENTER_LEFT);
+        topNode.setAlignment(Pos.CENTER);
         topNode.setStyle("-fx-background-color: #6A5ACD;");
 
         // Mid Node
